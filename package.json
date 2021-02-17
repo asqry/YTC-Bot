@@ -15,6 +15,7 @@
     "dotenv": "^8.2.0",
     "js-string-cleaner": "^1.0.1",
     "mongoose": "^5.11.9",
+    "node-fetch": "^2.6.1",
     "remove-markdown": "^0.3.0"
   }
 }
