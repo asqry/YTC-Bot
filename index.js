@@ -92,6 +92,11 @@ client.on('message', async (message) => {
         link: 'https://www.vegascreativesoftware.com/us/sem/vegas-pro-365/',
         price: '$23.99/month',
       },
+      {
+        name: 'Camtasia',
+        link: 'https://www.techsmith.com/camtasia-pricing.html',
+        price: '$249.99/user',
+      },
     ];
 
     let embed = new Discord.MessageEmbed().setTitle(
