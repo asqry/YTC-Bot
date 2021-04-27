@@ -21,7 +21,7 @@ module.exports = async (message, args) => {
         .send("Report successful.")
         .then((m) => m.delete({ timeout: 5000 }));
       ch.send(
-        `${message.author} -> reported ${user} (\`${user.id}\`) for \`${reason}\` \n \`\`\`${message.createdAt}\`\`\``
+        `${message.author} -> reported ${user} (\`${user.id}\`) for \`${reason}\` \n \`\`\`${message.createdAt}\`\`\`\n\nPlease react with ✅ when this report has been dealt with.`
       );
     }
   }
